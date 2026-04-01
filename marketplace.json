@@ -1,0 +1,22 @@
+{
+  "name": "Bunker Collective Plugins",
+  "description": "Private plugin marketplace for Bunker Collective — skills, agents, and workflow automation tools.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "id": "gtm-outbound-engine",
+      "name": "GTM Outbound Engine",
+      "description": "Three-skill pipeline for building ICPs, generating qualified lead lists, and writing persona-matched cold copy. Supports Notion or local storage. Works with Tavily, Exa, or Supadata search agents.",
+      "version": "0.2.0",
+      "path": "gtm-outbound-engine",
+      "author": "Bunker Collective",
+      "tags": ["gtm", "outbound", "leads", "cold-email", "personas"],
+      "skills": [
+        "launch-outbound-engine",
+        "persona-builder",
+        "lead-list-builder",
+        "copy-generator"
+      ]
+    }
+  ]
+}
