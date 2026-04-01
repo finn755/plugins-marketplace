@@ -6,6 +6,7 @@ Private plugin marketplace for the Bunker Collective team. Contains packaged ski
 
 | Plugin | Version | Description |
 |--------|---------|-------------|
+| [Paperclip Brief Builder](./paperclip-brief-builder/) | v1.0.0 | Dialogues with you to produce a structured handoff brief for the Paperclip CEO agent |
 | [GTM Outbound Engine](./gtm-outbound-engine/) | v0.2.0 | ICP → Lead List → Cold Copy pipeline |
 
 ## Adding This Marketplace to Claude
@@ -13,13 +14,13 @@ Private plugin marketplace for the Bunker Collective team. Contains packaged ski
 Run this in any Claude Code / Cowork session:
 
 ```
-/plugin → Marketplaces → Add Marketplace → bunker-collective/plugins-marketplace
+/plugin → Marketplaces → Add Marketplace → finn755/plugins-marketplace
 ```
 
 Or via the CLI:
 
 ```bash
-claude plugin marketplace add bunker-collective/plugins-marketplace
+claude plugin marketplace add finn755/plugins-marketplace
 ```
 
 Then browse and install:
