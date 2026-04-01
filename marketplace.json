@@ -1,8 +1,20 @@
 {
   "name": "Bunker Collective Plugins",
   "description": "Private plugin marketplace for Bunker Collective — skills, agents, and workflow automation tools.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "plugins": [
+    {
+      "id": "paperclip-brief-builder",
+      "name": "Paperclip Brief Builder",
+      "description": "Dialogues with the operator to extract a vision, success criteria, and constraints, then produces a structured handoff brief formatted for the Paperclip CEO agent. Reusable pattern for any agentic platform with a documented input spec.",
+      "version": "1.0.0",
+      "path": "paperclip-brief-builder",
+      "author": "Bunker Collective",
+      "tags": ["paperclip", "brief", "handoff", "delegation", "agentic"],
+      "skills": [
+        "paperclip-brief-builder"
+      ]
+    },
     {
       "id": "gtm-outbound-engine",
       "name": "GTM Outbound Engine",
